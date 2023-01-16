@@ -62,12 +62,19 @@ int palyndrome(char chaine[]) {
         inverse[z] = chaine[j];
         z++;
     }
-    printf("%s", inverse);
+    printf("%s\n", inverse);
 
-    if (inverse == chaine) {
-        printf("LESSSSSSSSSSGOOOOOO %s", inverse);
+    for (int j = 0; j < i; ++j) {
+            if (chaine[j] != inverse[j]) {
+                printf("ce n'est pas un palyndrome %s\n");
+                return 0;
+            }
+        printf("c'est un palyndrome %s\n");
+        return 0;
     }
+
 }
+
 
 int main(int argc, char *argv[]) {
 
