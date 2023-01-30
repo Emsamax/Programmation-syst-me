@@ -4,6 +4,10 @@
 
 #include <stdio.h>
 
+typedef struct {
+
+}matrice;
+
 int main3(){
     return 0;
 }
