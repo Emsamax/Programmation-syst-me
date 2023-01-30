@@ -55,6 +55,18 @@ build CMakeFiles/Programmation_syst_me.dir/TP1.c.obj: C_COMPILER__Programmation_
   OBJECT_DIR = CMakeFiles\Programmation_syst_me.dir
   OBJECT_FILE_DIR = CMakeFiles\Programmation_syst_me.dir
 
+build CMakeFiles/Programmation_syst_me.dir/TP2/ex1.c.obj: C_COMPILER__Programmation_syst_me_Debug C$:/Users/emsam/OneDrive/Documents/GitHub/Programmation-syst-me/TP2/ex1.c || cmake_object_order_depends_target_Programmation_syst_me
+  DEP_FILE = CMakeFiles\Programmation_syst_me.dir\TP2\ex1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Programmation_syst_me.dir
+  OBJECT_FILE_DIR = CMakeFiles\Programmation_syst_me.dir\TP2
+
+build CMakeFiles/Programmation_syst_me.dir/TP2/ex2.c.obj: C_COMPILER__Programmation_syst_me_Debug C$:/Users/emsam/OneDrive/Documents/GitHub/Programmation-syst-me/TP2/ex2.c || cmake_object_order_depends_target_Programmation_syst_me
+  DEP_FILE = CMakeFiles\Programmation_syst_me.dir\TP2\ex2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Programmation_syst_me.dir
+  OBJECT_FILE_DIR = CMakeFiles\Programmation_syst_me.dir\TP2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Programmation_syst_me
@@ -63,7 +75,7 @@ build CMakeFiles/Programmation_syst_me.dir/TP1.c.obj: C_COMPILER__Programmation_
 #############################################
 # Link the executable Programmation_syst_me.exe
 
-build Programmation_syst_me.exe: C_EXECUTABLE_LINKER__Programmation_syst_me_Debug CMakeFiles/Programmation_syst_me.dir/TP1.c.obj
+build Programmation_syst_me.exe: C_EXECUTABLE_LINKER__Programmation_syst_me_Debug CMakeFiles/Programmation_syst_me.dir/TP1.c.obj CMakeFiles/Programmation_syst_me.dir/TP2/ex1.c.obj CMakeFiles/Programmation_syst_me.dir/TP2/ex2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Programmation_syst_me.dir
